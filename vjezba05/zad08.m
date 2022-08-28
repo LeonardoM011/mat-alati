@@ -1,0 +1,12 @@
+subplot(2,2,1)
+f='2*sin((pi/6)*t+(pi/3))+3*sin((pi/3)*t-(pi/6))';
+g='4*sin((pi/2)*t)';
+ezplot(f,[0,5*pi])
+subplot(2,2,2)
+ezplot(g,[0,5*pi])
+subplot(2,2,3)
+fpg='(2*sin((pi/6)*t+(pi/3))+3*sin((pi/3)*t-(pi/6)))+(4*sin((pi/2)*t))';
+ezplot(fpg,[0,5*pi])
+subplot(2,2,4)
+fmg='(2*sin((pi/6)*t+(pi/3))+3*sin((pi/3)*t-(pi/6)))*(4*sin((pi/2)*t))';
+ezplot(fmg,[0,5*pi])

@@ -1,0 +1,9 @@
+subplot(2,2,1)
+f='2*sin(8*t+(pi/4))';
+ezplot(f,[0,4*pi])
+subplot(2,2,2)
+g='3*exp(1)^(-0.2*t)';
+ezplot(g,[0,4*pi])
+subplot(2,2,3)
+h='(2*sin(8*t+(pi/4)))*(3*exp(1)^(-0.2*t))';
+ezplot(h,[0,4*pi])
